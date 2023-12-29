@@ -1,0 +1,36 @@
+body {
+    font-family: sans-serif;
+    margin: 20px;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  textarea {
+    width: 500px;
+    height: 200px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-family: Arial;
+    font-size: 16px;
+  }
+  
+  .controls {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+  
+  label {
+    margin-right: 5px;
+  }
+
+  #Heading{
+    color: blue;
+    text-align: center;
+    padding-bottom: 50px;
+  }
